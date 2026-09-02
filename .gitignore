@@ -1,0 +1,19 @@
+# Specific files to ignore
+ML_Project.ipynb
+ML Project.html
+ML_Project.html
+
+# Python bytecode & cache
+__pycache__/
+**/__pycache__/**
+*.py[cod]
+*$py.class
+*.so
+
+
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+**/.ipynb_checkpoints/**
+
