@@ -40,15 +40,16 @@ class PredictionResponse(BaseModel):
     #6.777777 -> float
     
     
-@app.get("/")  
+@app.get("/")
 def greet():
-    return {"Welcome to Mental Health Score Predictor"}
+    return {"status": "online", "message": "Welcome to Mental Health Score Predictor API"}
+
 
 
 @app.post("/predict", response_model=PredictionResponse)
 def predict(data: StudentData):
     
-    country_group = data.country if data.country in top_countries else "other"
+    country_group = data.country if data.country in top_countries else "Other"
     
     input_row = pd.DataFrame([{
         'Age'                       :data.age,

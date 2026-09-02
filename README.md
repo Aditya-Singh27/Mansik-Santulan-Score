@@ -3,6 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Render](https://img.shields.io/badge/Render-Live_API-46E3B7?logo=render&logoColor=white)](https://mansik-santulan-score-vefe.onrender.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An end-to-end Machine Learning web application designed to analyze and predict student mental health wellness scores (on a scale of 0 to 10) based on daily digital habits, academic demands, physical activity, sleep patterns, and self-reported stress levels.
@@ -168,13 +169,12 @@ You can open `index.html` directly in any modern browser:
 
 ---
 
-## 🔌 API Documentation
-
 ### Interactive Swagger Docs
 
-Once the backend is running, explore and test the endpoints interactively:
-- **Swagger UI:** [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-- **ReDoc:** [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
+Explore and test the API endpoints directly:
+- **Live Deployed API Docs:** [https://mansik-santulan-score-vefe.onrender.com/docs](https://mansik-santulan-score-vefe.onrender.com/docs)
+- **Local Swagger UI:** [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+- **Local ReDoc:** [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
 ---
 

@@ -4,10 +4,10 @@ uvicorn[standard]>=0.28.0
 pydantic>=2.5.0
 
 # Machine Learning & Data Processing
-scikit-learn>=1.3.0,<1.6.0
+scikit-learn>=1.3.0,<1.4.0
 joblib>=1.3.0
 pandas>=2.1.0
-numpy>=1.24.0
+numpy>=1.24.0,<2.0.0
 
 # Data Science & Exploratory Data Analysis (EDA) Notebooks
 matplotlib>=3.7.0
